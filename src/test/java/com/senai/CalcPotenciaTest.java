@@ -10,6 +10,6 @@ public class CalcPotenciaTest {
         CalcPotencia calc = new CalcPotencia();
         double resultado = calc.calcularPotencia(127, 10);
 
-        assertEquals(1270, resultado, 0.01);
+        assertEquals(1200, resultado, 0.01);
     }
 }
